@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,700;1,300&display=swap");
+
+:root {
+  --primary-color: #fbcfe8;
+}
+
+body {
+  font-family: "Gideon Roman", cursive;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  background-color: var(--primary-color);
+}
+
+#navigation {
+  margin-top: 4rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#main-content {
+  margin: 3rem;
+  width: 300px;
+  margin: auto;
+}
+
+.input-label {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 0.4rem;
+}
+
+#lucky-number {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0px;
+}
+
+#birthday-date {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0px;
+}
+
+#date-section {
+  margin-top: 3rem;
+}
+
+#number-section {
+  margin-top: 3rem;
+}
+
+#btn-primary {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  border: 0.8px;
+  border-radius: 1rem;
+}
+
+#message {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

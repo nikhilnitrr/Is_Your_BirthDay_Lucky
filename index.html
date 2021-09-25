@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
     <title>Is your birthday Lucky</title>
   </head>
   <body>
-    <h1>Is your birthday Lucky?</h1>
+    <nav id="navigation"><h1>Is your birthday Lucky?</h1></nav>
+    <main id="main-content">
+      <section id="date-section">
+        <label class="input-label" for="birthday-date">Date of Birth:</label>
+        <input id="birthday-date" type="date" />
+      </section>
+      <section id="number-section">
+        <label class="input-label" for="lucky-number">Lucky Number:</label>
+        <input id="lucky-number" type="number" />
+      </section>
+
+      <button id="btn-primary">Check Number</button>
+
+      <div id="message"></div>
+    </main>
+    <footer id="footer">My online presence</footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
