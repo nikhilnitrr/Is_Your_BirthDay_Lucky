@@ -57,7 +57,7 @@ body {
 #btn-primary {
   display: block;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 0.8rem;
   border: 2px solid black;
   border-radius: 1rem;
@@ -66,13 +66,22 @@ body {
 
 #message {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   font-size: 1.5rem;
 }
 
 #footer {
   position: fixed;
+  margin-top: 0.5rem;
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+#footer-heading {
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  margin: 1rem;
 }
